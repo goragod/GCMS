@@ -1,0 +1,56 @@
+#product_list article {
+  padding: 3px;
+  border: 1px solid #EEE;
+}
+#product_list article:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#product_list h6 {
+  display: block;
+  padding: 5px 0;
+}
+#product_list a {
+  color: inherit;
+}
+#product_list .netprice {
+  color: #CC6600;
+  font-size: 1.1em;
+  padding: 5px 0;
+}
+#product_list article,
+#product_list .figure img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+#product_list .figure {
+  display: block;
+  overflow: hidden;
+  border-width: 3px;
+  border-color: #FFC459;
+  border-bottom-style: solid;
+}
+#product_list article img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+#product_list article:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#product_view .price {
+  color: #999;
+}
+#product_view .netprice {
+  font-size: 2em;
+}

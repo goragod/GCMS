@@ -1,0 +1,23 @@
+.widget.gallery .table_rss_gallery_class {
+  width: 100%;
+}
+.widget.gallery .table_rss_gallery_class td {
+  padding: 5px 0;
+  text-align: center;
+}
+.widget.gallery .table_rss_gallery_class a {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  display: block;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
+.widget.gallery .table_rss_gallery_class a:hover {
+  border-color: #FF6600;
+}
